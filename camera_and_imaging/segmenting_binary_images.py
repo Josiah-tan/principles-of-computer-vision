@@ -26,6 +26,7 @@ plt.show(block = False)
 ##
 
 def sequentialLabeling(binary_image):
+    # https://www.coursera.org/learn/cameraandimaging/ungradedWidget/cxflb/4-3-segmenting-binary-images
     labels = np.zeros_like(binary_image, dtype="int")
     labels[0][0] = 1
     labels[0][1] = 2

@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-
+# https://www.coursera.org/learn/cameraandimaging/ungradedWidget/Ijloy/4-2-geometric-properties
 width = 100
 height = 100
 img=cv2.imread("spanner_gray.png", cv2.IMREAD_GRAYSCALE)
