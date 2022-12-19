@@ -1,6 +1,4 @@
 import numpy as np
-from math import log, log10
-from collections import Counter
 import cv2
 import matplotlib.pyplot as plt
 
@@ -19,7 +17,7 @@ img = cv2.resize(img, (width, height))
 # plt.hist(img.flatten().tolist(), bins=10)
 # plt.show()
 
-##
+## thresholding the image
 
 threshold = 25
 # threshold = 40
